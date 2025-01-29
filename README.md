@@ -1,11 +1,6 @@
-## My Project
+## Go Bindings for cdk-proserve-lib
 
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+This repository contains Go bindings for [cdk-proserve-lib](https://github.com/cdklabs/cdk-proserve-lib).
 
 ## Security
 
