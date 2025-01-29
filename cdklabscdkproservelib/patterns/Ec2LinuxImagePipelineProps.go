@@ -3,7 +3,7 @@ package patterns
 import (
 	"github.com/aws/aws-cdk-go/awscdk/v2/awsimagebuilder"
 	"github.com/aws/aws-cdk-go/awscdk/v2/awskms"
-	"github.com/cdklabs/cdk-proserve-lib-go/cdklabscdkproservelib/constructs"
+	"github.com/cdklabs/cdk-proserve-lib-go/cdklabscdkproservelib/components"
 	"github.com/cdklabs/cdk-proserve-lib-go/cdklabscdkproservelib/interfaces"
 )
 
@@ -18,7 +18,7 @@ type Ec2LinuxImagePipelineProps struct {
 	Version *string `field:"required" json:"version" yaml:"version"`
 	// Configuration options for the build process.
 	// Experimental.
-	BuildConfiguration *constructs.Ec2ImagePipeline_BuildConfigurationProps `field:"optional" json:"buildConfiguration" yaml:"buildConfiguration"`
+	BuildConfiguration *components.Ec2ImagePipeline_BuildConfigurationProps `field:"optional" json:"buildConfiguration" yaml:"buildConfiguration"`
 	// Description of the image pipeline.
 	// Experimental.
 	Description *string `field:"optional" json:"description" yaml:"description"`
@@ -35,7 +35,7 @@ type Ec2LinuxImagePipelineProps struct {
 	LambdaConfiguration *interfaces.LambdaConfiguration `field:"optional" json:"lambdaConfiguration" yaml:"lambdaConfiguration"`
 	// VPC configuration for the image pipeline.
 	// Experimental.
-	VpcConfiguration *constructs.Ec2ImagePipeline_VpcConfigurationProps `field:"optional" json:"vpcConfiguration" yaml:"vpcConfiguration"`
+	VpcConfiguration *components.Ec2ImagePipeline_VpcConfigurationProps `field:"optional" json:"vpcConfiguration" yaml:"vpcConfiguration"`
 	// Additional components to install in the image.
 	//
 	// These will be added after the default Linux components.
