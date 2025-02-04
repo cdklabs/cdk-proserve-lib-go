@@ -1,7 +1,7 @@
 package components
 
 import (
-	"github.com/cdklabs/cdk-proserve-lib-go/cdklabscdkproservelib/interfaces"
+	"github.com/cdklabs/cdk-proserve-lib-go/cdklabscdkproservelib/types"
 )
 
 // Properties for the Ec2ImageBuilderGetImage construct.
@@ -12,6 +12,6 @@ type Ec2ImageBuilderGetImageProps struct {
 	ImageBuildVersionArn *string `field:"required" json:"imageBuildVersionArn" yaml:"imageBuildVersionArn"`
 	// Optional Lambda configuration settings.
 	// Experimental.
-	LambdaConfiguration *interfaces.AwsCustomResourceLambdaConfiguration `field:"optional" json:"lambdaConfiguration" yaml:"lambdaConfiguration"`
+	LambdaConfiguration *types.AwsCustomResourceLambdaConfiguration `field:"optional" json:"lambdaConfiguration" yaml:"lambdaConfiguration"`
 }
 

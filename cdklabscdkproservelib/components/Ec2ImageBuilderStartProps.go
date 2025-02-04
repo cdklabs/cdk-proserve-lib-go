@@ -2,7 +2,7 @@ package components
 
 import (
 	"github.com/aws/aws-cdk-go/awscdk/v2/awskms"
-	"github.com/cdklabs/cdk-proserve-lib-go/cdklabscdkproservelib/interfaces"
+	"github.com/cdklabs/cdk-proserve-lib-go/cdklabscdkproservelib/types"
 )
 
 // Properties for the EC2 Image Builder Start custom resource.
@@ -29,7 +29,7 @@ type Ec2ImageBuilderStartProps struct {
 	Hash *string `field:"optional" json:"hash" yaml:"hash"`
 	// Optional Lambda configuration settings.
 	// Experimental.
-	LambdaConfiguration *interfaces.LambdaConfiguration `field:"optional" json:"lambdaConfiguration" yaml:"lambdaConfiguration"`
+	LambdaConfiguration *types.LambdaConfiguration `field:"optional" json:"lambdaConfiguration" yaml:"lambdaConfiguration"`
 	// Set these properties to wait for the Image Build to complete.
 	//
 	// This is

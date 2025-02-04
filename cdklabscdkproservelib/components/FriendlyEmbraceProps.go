@@ -3,7 +3,7 @@ package components
 import (
 	"github.com/aws/aws-cdk-go/awscdk/v2/awskms"
 	"github.com/aws/aws-cdk-go/awscdk/v2/awss3"
-	"github.com/cdklabs/cdk-proserve-lib-go/cdklabscdkproservelib/interfaces"
+	"github.com/cdklabs/cdk-proserve-lib-go/cdklabscdkproservelib/types"
 )
 
 // Input metadata for the custom resource.
@@ -20,6 +20,6 @@ type FriendlyEmbraceProps struct {
 	IgnoreInvalidStates *bool `field:"optional" json:"ignoreInvalidStates" yaml:"ignoreInvalidStates"`
 	// Optional Lambda configuration settings.
 	// Experimental.
-	LambdaConfiguration *interfaces.LambdaConfiguration `field:"optional" json:"lambdaConfiguration" yaml:"lambdaConfiguration"`
+	LambdaConfiguration *types.LambdaConfiguration `field:"optional" json:"lambdaConfiguration" yaml:"lambdaConfiguration"`
 }
 

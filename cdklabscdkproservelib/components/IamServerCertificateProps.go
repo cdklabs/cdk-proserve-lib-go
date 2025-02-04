@@ -2,7 +2,7 @@ package components
 
 import (
 	"github.com/aws/aws-cdk-go/awscdk/v2/awskms"
-	"github.com/cdklabs/cdk-proserve-lib-go/cdklabscdkproservelib/interfaces"
+	"github.com/cdklabs/cdk-proserve-lib-go/cdklabscdkproservelib/types"
 )
 
 // Properties for the IamServerCertificate construct.
@@ -22,6 +22,6 @@ type IamServerCertificateProps struct {
 	Encryption awskms.IKey `field:"optional" json:"encryption" yaml:"encryption"`
 	// Optional Lambda configuration settings.
 	// Experimental.
-	LambdaConfiguration *interfaces.LambdaConfiguration `field:"optional" json:"lambdaConfiguration" yaml:"lambdaConfiguration"`
+	LambdaConfiguration *types.LambdaConfiguration `field:"optional" json:"lambdaConfiguration" yaml:"lambdaConfiguration"`
 }
 

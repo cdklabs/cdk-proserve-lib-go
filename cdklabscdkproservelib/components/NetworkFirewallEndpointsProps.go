@@ -2,7 +2,7 @@ package components
 
 import (
 	"github.com/aws/aws-cdk-go/awscdk/v2/awsnetworkfirewall"
-	"github.com/cdklabs/cdk-proserve-lib-go/cdklabscdkproservelib/interfaces"
+	"github.com/cdklabs/cdk-proserve-lib-go/cdklabscdkproservelib/types"
 )
 
 // Properties for the NetworkFirewallEndpoints construct.
@@ -13,6 +13,6 @@ type NetworkFirewallEndpointsProps struct {
 	Firewall awsnetworkfirewall.CfnFirewall `field:"required" json:"firewall" yaml:"firewall"`
 	// Optional Lambda configuration settings.
 	// Experimental.
-	LambdaConfiguration *interfaces.AwsCustomResourceLambdaConfiguration `field:"optional" json:"lambdaConfiguration" yaml:"lambdaConfiguration"`
+	LambdaConfiguration *types.AwsCustomResourceLambdaConfiguration `field:"optional" json:"lambdaConfiguration" yaml:"lambdaConfiguration"`
 }
 

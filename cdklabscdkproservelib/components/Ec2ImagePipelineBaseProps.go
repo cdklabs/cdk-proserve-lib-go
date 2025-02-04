@@ -2,7 +2,7 @@ package components
 
 import (
 	"github.com/aws/aws-cdk-go/awscdk/v2/awskms"
-	"github.com/cdklabs/cdk-proserve-lib-go/cdklabscdkproservelib/interfaces"
+	"github.com/cdklabs/cdk-proserve-lib-go/cdklabscdkproservelib/types"
 )
 
 // Base properties for EC2 Image Pipeline configuration.
@@ -30,7 +30,7 @@ type Ec2ImagePipelineBaseProps struct {
 	InstanceTypes *[]*string `field:"optional" json:"instanceTypes" yaml:"instanceTypes"`
 	// Optional Lambda configuration settings.
 	// Experimental.
-	LambdaConfiguration *interfaces.LambdaConfiguration `field:"optional" json:"lambdaConfiguration" yaml:"lambdaConfiguration"`
+	LambdaConfiguration *types.LambdaConfiguration `field:"optional" json:"lambdaConfiguration" yaml:"lambdaConfiguration"`
 	// VPC configuration for the image pipeline.
 	// Experimental.
 	VpcConfiguration *Ec2ImagePipeline_VpcConfigurationProps `field:"optional" json:"vpcConfiguration" yaml:"vpcConfiguration"`

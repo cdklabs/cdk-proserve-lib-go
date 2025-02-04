@@ -180,7 +180,7 @@ const (
 	// This includes latest Amazon ECS Container Agent and Docker CE version 20.10.21.
 	// Experimental.
 	Ec2ImagePipeline_Component_ECS_OPTIMIZED_AMI_WINDOWS Ec2ImagePipeline_Component = "ECS_OPTIMIZED_AMI_WINDOWS"
-	// Installs Amazon EKS-optimized Windows artifacts for Amazon EKS version 1.30. This includes kubelet version 1.30.2, containerd version 1.7.14, and CSI Proxy version 1.1.2.
+	// Installs Amazon EKS-optimized Windows artifacts for Amazon EKS version 1.30. This includes kubelet version 1.30.8, containerd version 1.7.14, and CSI Proxy version 1.1.2.
 	// Experimental.
 	Ec2ImagePipeline_Component_EKS_OPTIMIZED_AMI_WINDOWS Ec2ImagePipeline_Component = "EKS_OPTIMIZED_AMI_WINDOWS"
 	// The ENI attachment test performs the following actions: 1) It creates an elastic network interface (ENI) and attaches it to the instance.

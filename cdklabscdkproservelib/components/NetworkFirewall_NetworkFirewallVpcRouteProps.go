@@ -2,7 +2,7 @@ package components
 
 import (
 	"github.com/aws/aws-cdk-go/awscdk/v2/awsec2"
-	"github.com/cdklabs/cdk-proserve-lib-go/cdklabscdkproservelib/interfaces"
+	"github.com/cdklabs/cdk-proserve-lib-go/cdklabscdkproservelib/types"
 )
 
 // Experimental.
@@ -23,7 +23,7 @@ type NetworkFirewall_NetworkFirewallVpcRouteProps struct {
 	DestinationCidr *string `field:"optional" json:"destinationCidr" yaml:"destinationCidr"`
 	// Configuration for the Lambda function that will be used to retrieve info about the AWS Network Firewall in order to setup the routing.
 	// Experimental.
-	LambdaConfiguration *interfaces.AwsCustomResourceLambdaConfiguration `field:"optional" json:"lambdaConfiguration" yaml:"lambdaConfiguration"`
+	LambdaConfiguration *types.AwsCustomResourceLambdaConfiguration `field:"optional" json:"lambdaConfiguration" yaml:"lambdaConfiguration"`
 	// Subnets that should have routes back to the protected subnets.
 	//
 	// Since
