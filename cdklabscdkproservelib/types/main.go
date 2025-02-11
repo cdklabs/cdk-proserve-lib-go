@@ -19,8 +19,24 @@ func init() {
 			return &jsiiProxy_AwsManagedPolicy{}
 		},
 	)
+	_jsii_.RegisterClass(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		reflect.TypeOf((*Ec2InstanceType)(nil)).Elem(),
+		nil, // no members
+		func() interface{} {
+			return &jsiiProxy_Ec2InstanceType{}
+		},
+	)
 	_jsii_.RegisterStruct(
 		"@cdklabs/cdk-proserve-lib.types.LambdaConfiguration",
 		reflect.TypeOf((*LambdaConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdklabs/cdk-proserve-lib.types.SageMakerNotebookInstanceType",
+		reflect.TypeOf((*SageMakerNotebookInstanceType)(nil)).Elem(),
+		nil, // no members
+		func() interface{} {
+			return &jsiiProxy_SageMakerNotebookInstanceType{}
+		},
 	)
 }

@@ -36,6 +36,22 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
+		"@cdklabs/cdk-proserve-lib.aspects.SecureSageMakerNotebook",
+		reflect.TypeOf((*SecureSageMakerNotebook)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "visit", GoMethod: "Visit"},
+		},
+		func() interface{} {
+			j := jsiiProxy_SecureSageMakerNotebook{}
+			_jsii_.InitJsiiProxy(&j.Type__awscdkIAspect)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.aspects.SecureSageMakerNotebookProps",
+		reflect.TypeOf((*SecureSageMakerNotebookProps)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
 		"@cdklabs/cdk-proserve-lib.aspects.SetLogRetention",
 		reflect.TypeOf((*SetLogRetention)(nil)).Elem(),
 		[]_jsii_.Member{

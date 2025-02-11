@@ -180,7 +180,7 @@ const (
 	// This includes latest Amazon ECS Container Agent and Docker CE version 20.10.21.
 	// Experimental.
 	Ec2ImagePipeline_Component_ECS_OPTIMIZED_AMI_WINDOWS Ec2ImagePipeline_Component = "ECS_OPTIMIZED_AMI_WINDOWS"
-	// Installs Amazon EKS-optimized Windows artifacts for Amazon EKS version 1.30. This includes kubelet version 1.30.8, containerd version 1.7.14, and CSI Proxy version 1.1.2.
+	// Installs Amazon EKS-optimized Windows artifacts for Amazon EKS version 1.32. This includes kubelet version 1.32.0, containerd version 1.7.20, and CSI Proxy version 1.1.2.
 	// Experimental.
 	Ec2ImagePipeline_Component_EKS_OPTIMIZED_AMI_WINDOWS Ec2ImagePipeline_Component = "EKS_OPTIMIZED_AMI_WINDOWS"
 	// The ENI attachment test performs the following actions: 1) It creates an elastic network interface (ENI) and attaches it to the instance.
@@ -268,7 +268,7 @@ const (
 	// Installs SANS SIFT v1.14.0 on Ubuntu, allowing you to leverage a suite of forensics tools. For more information, see https://www.sans.org/tools/sift-workstation/.
 	// Experimental.
 	Ec2ImagePipeline_Component_SAN_SIFT_LINUX Ec2ImagePipeline_Component = "SAN_SIFT_LINUX"
-	// Installs and runs SCAP Compliance Checker (SCC) 5.8 for Red Hat Enterprise Linux (RHEL) 7/8, Ubuntu 18.04/20.04 with all current STIG Q4 2023 benchmarks. SCC supports the AMD64 architecture. Other architectures are not currently supported. For more information, see https://docs.aws.amazon.com/imagebuilder/latest/userguide/toe-stig.html.
+	// Installs and runs SCAP Compliance Checker (SCC) 5.10 for Red Hat Enterprise Linux (RHEL) 7/8, Ubuntu 18.04/20.04/22.04 with all current STIG Q1 2025 benchmarks. SCC supports the AMD64 architecture. Other architectures are not currently supported or contain issues within the EC2 environment. For more information, see https://docs.aws.amazon.com/imagebuilder/latest/userguide/toe-stig.html.
 	// Experimental.
 	Ec2ImagePipeline_Component_SCAP_COMPLIANCE_CHECKER_LINUX Ec2ImagePipeline_Component = "SCAP_COMPLIANCE_CHECKER_LINUX"
 	// Installs and runs SCAP Compliance Checker (SCC) 5.10 for Windows with all current STIG Q3 2024 benchmarks. For more information, see https://docs.aws.amazon.com/imagebuilder/latest/userguide/image-builder-stig.html.
