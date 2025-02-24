@@ -8,6 +8,42 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
+		"@cdklabs/cdk-proserve-lib.patterns.ApiGatewayStaticHosting",
+		reflect.TypeOf((*ApiGatewayStaticHosting)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "components", GoGetter: "Components"},
+			_jsii_.MemberProperty{JsiiProperty: "customDomainNameAlias", GoGetter: "CustomDomainNameAlias"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "url", GoGetter: "Url"},
+		},
+		func() interface{} {
+			j := jsiiProxy_ApiGatewayStaticHosting{}
+			_jsii_.InitJsiiProxy(&j.Type__constructsConstruct)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.patterns.ApiGatewayStaticHosting.Asset",
+		reflect.TypeOf((*ApiGatewayStaticHosting_Asset)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.patterns.ApiGatewayStaticHosting.CustomDomainConfiguration",
+		reflect.TypeOf((*ApiGatewayStaticHosting_CustomDomainConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.patterns.ApiGatewayStaticHosting.DefaultEndpointConfiguration",
+		reflect.TypeOf((*ApiGatewayStaticHosting_DefaultEndpointConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.patterns.ApiGatewayStaticHosting.PatternComponents",
+		reflect.TypeOf((*ApiGatewayStaticHosting_PatternComponents)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.patterns.ApiGatewayStaticHostingProps",
+		reflect.TypeOf((*ApiGatewayStaticHostingProps)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
 		"@cdklabs/cdk-proserve-lib.patterns.Ec2LinuxImagePipeline",
 		reflect.TypeOf((*Ec2LinuxImagePipeline)(nil)).Elem(),
 		[]_jsii_.Member{
