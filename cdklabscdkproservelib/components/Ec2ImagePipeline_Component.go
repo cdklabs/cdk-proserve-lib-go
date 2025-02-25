@@ -265,9 +265,6 @@ const (
 	// Reboots the system.
 	// Experimental.
 	Ec2ImagePipeline_Component_REBOOT_WINDOWS Ec2ImagePipeline_Component = "REBOOT_WINDOWS"
-	// Installs SANS SIFT v1.14.0 on Ubuntu, allowing you to leverage a suite of forensics tools. For more information, see https://www.sans.org/tools/sift-workstation/.
-	// Experimental.
-	Ec2ImagePipeline_Component_SAN_SIFT_LINUX Ec2ImagePipeline_Component = "SAN_SIFT_LINUX"
 	// Installs and runs SCAP Compliance Checker (SCC) 5.10 for Red Hat Enterprise Linux (RHEL) 7/8, Ubuntu 18.04/20.04/22.04 with all current STIG Q1 2025 benchmarks. SCC supports the AMD64 architecture. Other architectures are not currently supported or contain issues within the EC2 environment. For more information, see https://docs.aws.amazon.com/imagebuilder/latest/userguide/toe-stig.html.
 	// Experimental.
 	Ec2ImagePipeline_Component_SCAP_COMPLIANCE_CHECKER_LINUX Ec2ImagePipeline_Component = "SCAP_COMPLIANCE_CHECKER_LINUX"
