@@ -40,14 +40,25 @@ import (
 // Experimental.
 type Ec2LinuxImagePipeline interface {
 	constructs.Construct
+	// The Amazon Resource Name (ARN) of the Image Pipeline.
+	//
+	// Used to uniquely identify this image pipeline.
 	// Experimental.
 	ImagePipelineArn() *string
 	// Experimental.
 	SetImagePipelineArn(val *string)
+	// The SNS Topic associated with this Image Pipeline.
+	//
+	// Publishes notifications about pipeline execution events.
 	// Experimental.
 	ImagePipelineTopic() awssns.ITopic
 	// Experimental.
 	SetImagePipelineTopic(val awssns.ITopic)
+	// The latest AMI built by the pipeline.
+	//
+	// NOTE: You must have enabled the
+	// Build Configuration option to wait for image build completion for this
+	// property to be available.
 	// Experimental.
 	LatestAmi() *string
 	// Experimental.
