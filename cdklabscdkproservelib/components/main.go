@@ -8,6 +8,27 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
+		"@cdklabs/cdk-proserve-lib.constructs.DynamoDbProvisionTable",
+		reflect.TypeOf((*DynamoDbProvisionTable)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DynamoDbProvisionTable{}
+			_jsii_.InitJsiiProxy(&j.Type__constructsConstruct)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.constructs.DynamoDbProvisionTable.TableProps",
+		reflect.TypeOf((*DynamoDbProvisionTable_TableProps)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.constructs.DynamoDbProvisionTableProps",
+		reflect.TypeOf((*DynamoDbProvisionTableProps)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
 		"@cdklabs/cdk-proserve-lib.constructs.Ec2ImageBuilderGetImage",
 		reflect.TypeOf((*Ec2ImageBuilderGetImage)(nil)).Elem(),
 		[]_jsii_.Member{
