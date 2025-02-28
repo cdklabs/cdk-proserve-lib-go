@@ -8,7 +8,7 @@ import (
 	"github.com/cdklabs/cdk-proserve-lib-go/cdklabscdkproservelib/components/internal"
 )
 
-// A construct that creates a Custom Resource to manage an AWS Identity and Access Management Server Certificate for use in regions/partitions where AWS Certificate Manager is not available.
+// Manages an AWS Identity and Access Management Server Certificate for use in regions/partitions where AWS Certificate Manager is not available.
 //
 // This construct allows you to create an IAM Server Certificate using a certificate and private key stored in either
 // AWS Systems Manager Parameter Store or AWS Secrets Manager. It uses a Custom Resource to manage the lifecycle of the

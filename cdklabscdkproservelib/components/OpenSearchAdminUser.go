@@ -8,7 +8,7 @@ import (
 	"github.com/cdklabs/cdk-proserve-lib-go/cdklabscdkproservelib/components/internal"
 )
 
-// OpenSearchAdminUser construct creates a custom resource to manage an admin user for an Amazon OpenSearch domain.
+// Manages an admin user for an Amazon OpenSearch domain.
 //
 // This construct creates a Lambda-backed custom resource that adds an admin user to the specified OpenSearch domain.
 // It uses the provided SSM parameter for the username, a provided SSM parameter or Secrets Manager secret for the
