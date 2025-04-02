@@ -95,6 +95,70 @@ func init() {
 		reflect.TypeOf((*SecureSageMakerNotebookProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
+		"@cdklabs/cdk-proserve-lib.aspects.SecurityCompliance",
+		reflect.TypeOf((*SecurityCompliance)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "visit", GoMethod: "Visit"},
+		},
+		func() interface{} {
+			j := jsiiProxy_SecurityCompliance{}
+			_jsii_.InitJsiiProxy(&j.Type__awscdkIAspect)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.aspects.SecurityCompliance.ApiGatewaySettings",
+		reflect.TypeOf((*SecurityCompliance_ApiGatewaySettings)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.aspects.SecurityCompliance.DisableableSetting",
+		reflect.TypeOf((*SecurityCompliance_DisableableSetting)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.aspects.SecurityCompliance.DynamoDbSettings",
+		reflect.TypeOf((*SecurityCompliance_DynamoDbSettings)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.aspects.SecurityCompliance.EcsSettings",
+		reflect.TypeOf((*SecurityCompliance_EcsSettings)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.aspects.SecurityCompliance.LambdaSettings",
+		reflect.TypeOf((*SecurityCompliance_LambdaSettings)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.aspects.SecurityCompliance.ReservedConcurrentSettings",
+		reflect.TypeOf((*SecurityCompliance_ReservedConcurrentSettings)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.aspects.SecurityCompliance.S3Settings",
+		reflect.TypeOf((*SecurityCompliance_S3Settings)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.aspects.SecurityCompliance.ServerAccessLogsSettings",
+		reflect.TypeOf((*SecurityCompliance_ServerAccessLogsSettings)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.aspects.SecurityCompliance.Settings",
+		reflect.TypeOf((*SecurityCompliance_Settings)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.aspects.SecurityCompliance.StageMethodLogging",
+		reflect.TypeOf((*SecurityCompliance_StageMethodLogging)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.aspects.SecurityCompliance.StepFunctionsSettings",
+		reflect.TypeOf((*SecurityCompliance_StepFunctionsSettings)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.aspects.SecurityCompliance.Suppressions",
+		reflect.TypeOf((*SecurityCompliance_Suppressions)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.aspects.SecurityComplianceProps",
+		reflect.TypeOf((*SecurityComplianceProps)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
 		"@cdklabs/cdk-proserve-lib.aspects.SetLogRetention",
 		reflect.TypeOf((*SetLogRetention)(nil)).Elem(),
 		[]_jsii_.Member{
