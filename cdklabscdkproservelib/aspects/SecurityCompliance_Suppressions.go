@@ -3,6 +3,13 @@ package aspects
 
 // Experimental.
 type SecurityCompliance_Suppressions struct {
+	// Suppressions to add for CDK Nag on CDK generated policies.
+	//
+	// If enabled
+	// this will add a stack suppression for `AwsSolutions-IAM5` on the actions
+	// that CDK commonly generates when using `.grant(...)` methods.
+	// Experimental.
+	CdkCommonGrants *string `field:"optional" json:"cdkCommonGrants" yaml:"cdkCommonGrants"`
 	// Suppressions to add for CDK Nag on CDK generated resources.
 	//
 	// If enabled
@@ -16,14 +23,7 @@ type SecurityCompliance_Suppressions struct {
 	// - Log Group suppression: NIST.800.53.R5-CloudWatchLogGroupEncrypted
 	// - Step Function suppression: AwsSolutions-SF1.
 	// Experimental.
-	CdkGenerated *string `field:"optional" json:"cdkGenerated" yaml:"cdkGenerated"`
-	// Suppressions to add for CDK Nag on CDK generated policies.
-	//
-	// If enabled
-	// this will add a stack suppression for `AwsSolutions-IAM5` on the actions
-	// that CDK commonly generates when using `.grant(...)` methods.
-	// Experimental.
-	IamCommonCdkGrants *string `field:"optional" json:"iamCommonCdkGrants" yaml:"iamCommonCdkGrants"`
+	CdkGeneratedResources *string `field:"optional" json:"cdkGeneratedResources" yaml:"cdkGeneratedResources"`
 	// Adds a stack suppression for `NIST.800.53.R5-IAMNoInlinePolicy`. CDK commonly uses inline policies when adding permissions.
 	// Experimental.
 	IamNoInlinePolicies *string `field:"optional" json:"iamNoInlinePolicies" yaml:"iamNoInlinePolicies"`
