@@ -1,6 +1,7 @@
 package components
 
 import (
+	"github.com/aws/aws-cdk-go/awscdk/v2/awsiam"
 	"github.com/aws/aws-cdk-go/awscdk/v2/awskms"
 	"github.com/aws/aws-cdk-go/awscdk/v2/awss3"
 	"github.com/cdklabs/cdk-proserve-lib-go/cdklabscdkproservelib/types"
@@ -21,5 +22,11 @@ type FriendlyEmbraceProps struct {
 	// Optional Lambda configuration settings.
 	// Experimental.
 	LambdaConfiguration *types.LambdaConfiguration `field:"optional" json:"lambdaConfiguration" yaml:"lambdaConfiguration"`
+	// Manually provide specific read-only permissions for resources in your CloudFormation templates to support instead of using the AWS managed policy [ReadOnlyAccess](https://docs.aws.amazon.com/aws-managed-policy/latest/reference/ReadOnlyAccess.html).
+	//
+	// This can be useful in environments where the caller wants to maintain tight control over the permissions granted
+	// to the custom resource worker.
+	// Experimental.
+	ManualReadPermissions *[]awsiam.PolicyStatement `field:"optional" json:"manualReadPermissions" yaml:"manualReadPermissions"`
 }
 
