@@ -323,6 +323,27 @@ func init() {
 		reflect.TypeOf((*OpenSearchAdminUserProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
+		"@cdklabs/cdk-proserve-lib.constructs.OpenSearchWorkflow",
+		reflect.TypeOf((*OpenSearchWorkflow)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "getResourceId", GoMethod: "GetResourceId"},
+			_jsii_.MemberProperty{JsiiProperty: "isCompleteHandler", GoGetter: "IsCompleteHandler"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberProperty{JsiiProperty: "onEventHandler", GoGetter: "OnEventHandler"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "workflowId", GoGetter: "WorkflowId"},
+		},
+		func() interface{} {
+			j := jsiiProxy_OpenSearchWorkflow{}
+			_jsii_.InitJsiiProxy(&j.Type__constructsConstruct)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.constructs.OpenSearchWorkflowProps",
+		reflect.TypeOf((*OpenSearchWorkflowProps)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
 		"@cdklabs/cdk-proserve-lib.constructs.WebApplicationFirewall",
 		reflect.TypeOf((*WebApplicationFirewall)(nil)).Elem(),
 		[]_jsii_.Member{

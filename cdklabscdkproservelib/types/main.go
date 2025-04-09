@@ -19,6 +19,15 @@ func init() {
 			return &jsiiProxy_AwsManagedPolicy{}
 		},
 	)
+	_jsii_.RegisterEnum(
+		"@cdklabs/cdk-proserve-lib.types.DestructiveOperation",
+		reflect.TypeOf((*DestructiveOperation)(nil)).Elem(),
+		map[string]interface{}{
+			"UPDATE": DestructiveOperation_UPDATE,
+			"DELETE": DestructiveOperation_DELETE,
+			"ALL": DestructiveOperation_ALL,
+		},
+	)
 	_jsii_.RegisterClass(
 		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
 		reflect.TypeOf((*Ec2InstanceType)(nil)).Elem(),
