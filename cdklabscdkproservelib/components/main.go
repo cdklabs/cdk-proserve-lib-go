@@ -323,6 +323,23 @@ func init() {
 		reflect.TypeOf((*OpenSearchAdminUserProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
+		"@cdklabs/cdk-proserve-lib.constructs.OpenSearchProvisionDomain",
+		reflect.TypeOf((*OpenSearchProvisionDomain)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_OpenSearchProvisionDomain{}
+			_jsii_.InitJsiiProxy(&j.Type__constructsConstruct)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.constructs.OpenSearchProvisionDomainProps",
+		reflect.TypeOf((*OpenSearchProvisionDomainProps)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
 		"@cdklabs/cdk-proserve-lib.constructs.OpenSearchWorkflow",
 		reflect.TypeOf((*OpenSearchWorkflow)(nil)).Elem(),
 		[]_jsii_.Member{
