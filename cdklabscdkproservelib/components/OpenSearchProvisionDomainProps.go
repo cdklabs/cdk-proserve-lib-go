@@ -16,9 +16,6 @@ type OpenSearchProvisionDomainProps struct {
 	// AWS IAM Role that is configured as an administrative user of the Amazon OpenSearch Service domain.
 	// Experimental.
 	DomainAdmin awsiam.IRole `field:"required" json:"domainAdmin" yaml:"domainAdmin"`
-	// Type of the managed Amazon OpenSearch Service domain.
-	// Experimental.
-	DomainType *string `field:"required" json:"domainType" yaml:"domainType"`
 	// Path on the local disk to the files that will be used to provision the Amazon OpenSearch Service domain.
 	// Experimental.
 	ProvisioningConfigurationPath *string `field:"required" json:"provisioningConfigurationPath" yaml:"provisioningConfigurationPath"`
