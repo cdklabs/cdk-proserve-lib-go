@@ -83,4 +83,85 @@ func init() {
 		"@cdklabs/cdk-proserve-lib.patterns.Ec2LinuxImagePipelineProps",
 		reflect.TypeOf((*Ec2LinuxImagePipelineProps)(nil)).Elem(),
 	)
+	_jsii_.RegisterClass(
+		"@cdklabs/cdk-proserve-lib.patterns.KeycloakService",
+		reflect.TypeOf((*KeycloakService)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "adminUser", GoGetter: "AdminUser"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_KeycloakService{}
+			_jsii_.InitJsiiProxy(&j.Type__constructsConstruct)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.patterns.KeycloakService.ApplicationConfiguration",
+		reflect.TypeOf((*KeycloakService_ApplicationConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.patterns.KeycloakService.ClusterConfiguration",
+		reflect.TypeOf((*KeycloakService_ClusterConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.patterns.KeycloakService.ClusterRequestCountScalingConfiguration",
+		reflect.TypeOf((*KeycloakService_ClusterRequestCountScalingConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.patterns.KeycloakService.ClusterScalingConfiguration",
+		reflect.TypeOf((*KeycloakService_ClusterScalingConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdklabs/cdk-proserve-lib.patterns.KeycloakService.EngineVersion",
+		reflect.TypeOf((*KeycloakService_EngineVersion)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "is", GoMethod: "Is"},
+			_jsii_.MemberProperty{JsiiProperty: "value", GoGetter: "Value"},
+		},
+		func() interface{} {
+			return &jsiiProxy_KeycloakService_EngineVersion{}
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.patterns.KeycloakService.FabricConfiguration",
+		reflect.TypeOf((*KeycloakService_FabricConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.patterns.KeycloakService.HostnameConfiguration",
+		reflect.TypeOf((*KeycloakService_HostnameConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.patterns.KeycloakService.InfrastructureConfiguration",
+		reflect.TypeOf((*KeycloakService_InfrastructureConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.patterns.KeycloakService.KeycloakProps",
+		reflect.TypeOf((*KeycloakService_KeycloakProps)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.patterns.KeycloakService.ManagementConfiguration",
+		reflect.TypeOf((*KeycloakService_ManagementConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.patterns.KeycloakService.RemovalPolicies",
+		reflect.TypeOf((*KeycloakService_RemovalPolicies)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.patterns.KeycloakService.ServerlessDatabaseConfiguration",
+		reflect.TypeOf((*KeycloakService_ServerlessDatabaseConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.patterns.KeycloakService.TaskSizingConfiguration",
+		reflect.TypeOf((*KeycloakService_TaskSizingConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.patterns.KeycloakService.TraditionalDatabaseConfiguration",
+		reflect.TypeOf((*KeycloakService_TraditionalDatabaseConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.patterns.KeycloakServiceProps",
+		reflect.TypeOf((*KeycloakServiceProps)(nil)).Elem(),
+	)
 }
