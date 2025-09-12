@@ -104,6 +104,9 @@ type KeycloakService interface {
 	// Credentials for bootstrapping a local admin user in Keycloak.
 	// Experimental.
 	AdminUser() awssecretsmanager.ISecret
+	// Endpoint for the Keycloak service.
+	// Experimental.
+	Endpoint() interface{}
 	// The tree node.
 	// Experimental.
 	Node() constructs.Node
@@ -122,6 +125,16 @@ func (j *jsiiProxy_KeycloakService) AdminUser() awssecretsmanager.ISecret {
 	_jsii_.Get(
 		j,
 		"adminUser",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KeycloakService) Endpoint() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"endpoint",
 		&returns,
 	)
 	return returns

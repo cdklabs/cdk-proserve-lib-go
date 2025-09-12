@@ -88,6 +88,7 @@ func init() {
 		reflect.TypeOf((*KeycloakService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adminUser", GoGetter: "AdminUser"},
+			_jsii_.MemberProperty{JsiiProperty: "endpoint", GoGetter: "Endpoint"},
 			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
@@ -123,6 +124,10 @@ func init() {
 		func() interface{} {
 			return &jsiiProxy_KeycloakService_EngineVersion{}
 		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.patterns.KeycloakService.FabricApplicationLoadBalancingConfiguration",
+		reflect.TypeOf((*KeycloakService_FabricApplicationLoadBalancingConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
 		"@cdklabs/cdk-proserve-lib.patterns.KeycloakService.FabricConfiguration",

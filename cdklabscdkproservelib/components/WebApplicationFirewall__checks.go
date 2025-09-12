@@ -11,7 +11,7 @@ import (
 	"github.com/aws/constructs-go/constructs/v10"
 )
 
-func (w *jsiiProxy_WebApplicationFirewall) validateAssociateParameters(resource awselasticloadbalancingv2.ApplicationLoadBalancer) error {
+func (w *jsiiProxy_WebApplicationFirewall) validateAssociateParameters(resource awselasticloadbalancingv2.IApplicationLoadBalancer) error {
 	if resource == nil {
 		return fmt.Errorf("parameter resource is required, but nil was provided")
 	}

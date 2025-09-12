@@ -50,7 +50,7 @@ type WebApplicationFirewall interface {
 	WebAcl() awswafv2.CfnWebACL
 	// Associates the Web Application Firewall to an applicable resource.
 	// Experimental.
-	Associate(resource awselasticloadbalancingv2.ApplicationLoadBalancer)
+	Associate(resource awselasticloadbalancingv2.IApplicationLoadBalancer)
 	// Returns a string representation of this construct.
 	// Experimental.
 	ToString() *string
@@ -145,7 +145,7 @@ func WebApplicationFirewall_IsConstruct(x interface{}) *bool {
 	return returns
 }
 
-func (w *jsiiProxy_WebApplicationFirewall) Associate(resource awselasticloadbalancingv2.ApplicationLoadBalancer) {
+func (w *jsiiProxy_WebApplicationFirewall) Associate(resource awselasticloadbalancingv2.IApplicationLoadBalancer) {
 	if err := w.validateAssociateParameters(resource); err != nil {
 		panic(err)
 	}
