@@ -17,6 +17,9 @@ type IamServerCertificateProps struct {
 	// AWS Systems Manager parameter or AWS Secrets Manager secret which contains the private key.
 	// Experimental.
 	PrivateKey interface{} `field:"required" json:"privateKey" yaml:"privateKey"`
+	// AWS Systems Manager parameter or AWS Secrets Manager secret which contains the certificate chain if applicable.
+	// Experimental.
+	CertificateChain interface{} `field:"optional" json:"certificateChain" yaml:"certificateChain"`
 	// Encryption key for protecting the framework resources.
 	// Experimental.
 	Encryption awskms.IKey `field:"optional" json:"encryption" yaml:"encryption"`

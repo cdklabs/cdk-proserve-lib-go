@@ -4,6 +4,7 @@ import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 	_init_ "github.com/cdklabs/cdk-proserve-lib-go/cdklabscdkproservelib/jsii"
 
+	"github.com/aws/aws-cdk-go/awscdk/v2/awsecs"
 	"github.com/aws/aws-cdk-go/awscdk/v2/awssecretsmanager"
 	"github.com/aws/constructs-go/constructs/v10"
 	"github.com/cdklabs/cdk-proserve-lib-go/cdklabscdkproservelib/patterns/internal"
@@ -110,6 +111,9 @@ type KeycloakService interface {
 	// The tree node.
 	// Experimental.
 	Node() constructs.Node
+	// Container service for the Keycloak cluster.
+	// Experimental.
+	Service() awsecs.FargateService
 	// Returns a string representation of this construct.
 	// Experimental.
 	ToString() *string
@@ -145,6 +149,16 @@ func (j *jsiiProxy_KeycloakService) Node() constructs.Node {
 	_jsii_.Get(
 		j,
 		"node",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KeycloakService) Service() awsecs.FargateService {
+	var returns awsecs.FargateService
+	_jsii_.Get(
+		j,
+		"service",
 		&returns,
 	)
 	return returns
