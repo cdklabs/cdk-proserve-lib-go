@@ -79,6 +79,23 @@ func init() {
 		reflect.TypeOf((*Ec2AutomatedShutdownProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
+		"@cdklabs/cdk-proserve-lib.aspects.RdsOracleMultiTenant",
+		reflect.TypeOf((*RdsOracleMultiTenant)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "props", GoGetter: "Props"},
+			_jsii_.MemberMethod{JsiiMethod: "visit", GoMethod: "Visit"},
+		},
+		func() interface{} {
+			j := jsiiProxy_RdsOracleMultiTenant{}
+			_jsii_.InitJsiiProxy(&j.Type__awscdkIAspect)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdklabs/cdk-proserve-lib.aspects.RdsOracleMultiTenantProps",
+		reflect.TypeOf((*RdsOracleMultiTenantProps)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
 		"@cdklabs/cdk-proserve-lib.aspects.SecureSageMakerNotebook",
 		reflect.TypeOf((*SecureSageMakerNotebook)(nil)).Elem(),
 		[]_jsii_.Member{
