@@ -2160,6 +2160,490 @@ func Ec2InstanceType_C8G_XLARGE() *string {
 	return returns
 }
 
+func Ec2InstanceType_C8GD_12XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GD_12XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8GD_16XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GD_16XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8GD_24XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GD_24XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8GD_2XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GD_2XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8GD_48XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GD_48XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8GD_4XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GD_4XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8GD_8XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GD_8XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8GD_LARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GD_LARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8GD_MEDIUM() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GD_MEDIUM",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8GD_METAL_24XL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GD_METAL_24XL",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8GD_METAL_48XL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GD_METAL_48XL",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8GD_XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GD_XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8GN_12XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GN_12XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8GN_16XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GN_16XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8GN_24XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GN_24XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8GN_2XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GN_2XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8GN_48XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GN_48XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8GN_4XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GN_4XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8GN_8XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GN_8XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8GN_LARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GN_LARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8GN_MEDIUM() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GN_MEDIUM",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8GN_METAL_24XL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GN_METAL_24XL",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8GN_METAL_48XL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GN_METAL_48XL",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8GN_XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8GN_XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8I_12XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8I_12XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8I_16XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8I_16XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8I_24XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8I_24XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8I_2XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8I_2XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8I_32XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8I_32XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8I_48XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8I_48XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8I_4XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8I_4XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8I_8XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8I_8XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8I_96XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8I_96XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8I_FLEX_12XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8I_FLEX_12XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8I_FLEX_16XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8I_FLEX_16XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8I_FLEX_2XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8I_FLEX_2XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8I_FLEX_4XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8I_FLEX_4XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8I_FLEX_8XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8I_FLEX_8XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8I_FLEX_LARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8I_FLEX_LARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8I_FLEX_XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8I_FLEX_XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8I_LARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8I_LARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8I_METAL_48XL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8I_METAL_48XL",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8I_METAL_96XL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8I_METAL_96XL",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_C8I_XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"C8I_XLARGE",
+		&returns,
+	)
+	return returns
+}
+
 func Ec2InstanceType_D2_2XLARGE() *string {
 	_init_.Initialize()
 	var returns *string
@@ -2853,6 +3337,50 @@ func Ec2InstanceType_G6E_XLARGE() *string {
 	return returns
 }
 
+func Ec2InstanceType_G6F_2XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"G6F_2XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_G6F_4XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"G6F_4XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_G6F_LARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"G6F_LARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_G6F_XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"G6F_XLARGE",
+		&returns,
+	)
+	return returns
+}
+
 func Ec2InstanceType_GR6_4XLARGE() *string {
 	_init_.Initialize()
 	var returns *string
@@ -2870,6 +3398,17 @@ func Ec2InstanceType_GR6_8XLARGE() *string {
 	_jsii_.StaticGet(
 		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
 		"GR6_8XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_GR6F_4XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"GR6F_4XLARGE",
 		&returns,
 	)
 	return returns
@@ -3046,17 +3585,6 @@ func Ec2InstanceType_I3_LARGE() *string {
 	_jsii_.StaticGet(
 		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
 		"I3_LARGE",
-		&returns,
-	)
-	return returns
-}
-
-func Ec2InstanceType_I3_METAL() *string {
-	_init_.Initialize()
-	var returns *string
-	_jsii_.StaticGet(
-		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
-		"I3_METAL",
 		&returns,
 	)
 	return returns
@@ -3337,6 +3865,127 @@ func Ec2InstanceType_I4I_XLARGE() *string {
 	return returns
 }
 
+func Ec2InstanceType_I7I_12XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I7I_12XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_I7I_16XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I7I_16XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_I7I_24XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I7I_24XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_I7I_2XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I7I_2XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_I7I_48XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I7I_48XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_I7I_4XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I7I_4XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_I7I_8XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I7I_8XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_I7I_LARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I7I_LARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_I7I_METAL_24XL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I7I_METAL_24XL",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_I7I_METAL_48XL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I7I_METAL_48XL",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_I7I_XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I7I_XLARGE",
+		&returns,
+	)
+	return returns
+}
+
 func Ec2InstanceType_I7IE_12XLARGE() *string {
 	_init_.Initialize()
 	var returns *string
@@ -3425,6 +4074,28 @@ func Ec2InstanceType_I7IE_LARGE() *string {
 	return returns
 }
 
+func Ec2InstanceType_I7IE_METAL_24XL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I7IE_METAL_24XL",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_I7IE_METAL_48XL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I7IE_METAL_48XL",
+		&returns,
+	)
+	return returns
+}
+
 func Ec2InstanceType_I7IE_XLARGE() *string {
 	_init_.Initialize()
 	var returns *string
@@ -3480,6 +4151,17 @@ func Ec2InstanceType_I8G_2XLARGE() *string {
 	return returns
 }
 
+func Ec2InstanceType_I8G_48XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I8G_48XLARGE",
+		&returns,
+	)
+	return returns
+}
+
 func Ec2InstanceType_I8G_4XLARGE() *string {
 	_init_.Initialize()
 	var returns *string
@@ -3530,6 +4212,127 @@ func Ec2InstanceType_I8G_XLARGE() *string {
 	_jsii_.StaticGet(
 		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
 		"I8G_XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_I8GE_12XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I8GE_12XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_I8GE_18XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I8GE_18XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_I8GE_24XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I8GE_24XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_I8GE_2XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I8GE_2XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_I8GE_3XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I8GE_3XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_I8GE_48XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I8GE_48XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_I8GE_6XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I8GE_6XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_I8GE_LARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I8GE_LARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_I8GE_METAL_24XL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I8GE_METAL_24XL",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_I8GE_METAL_48XL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I8GE_METAL_48XL",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_I8GE_XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"I8GE_XLARGE",
 		&returns,
 	)
 	return returns
@@ -6010,6 +6813,380 @@ func Ec2InstanceType_M8G_XLARGE() *string {
 	return returns
 }
 
+func Ec2InstanceType_M8GD_12XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8GD_12XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8GD_16XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8GD_16XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8GD_24XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8GD_24XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8GD_2XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8GD_2XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8GD_48XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8GD_48XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8GD_4XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8GD_4XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8GD_8XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8GD_8XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8GD_LARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8GD_LARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8GD_MEDIUM() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8GD_MEDIUM",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8GD_METAL_24XL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8GD_METAL_24XL",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8GD_METAL_48XL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8GD_METAL_48XL",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8GD_XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8GD_XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8I_12XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8I_12XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8I_16XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8I_16XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8I_24XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8I_24XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8I_2XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8I_2XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8I_32XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8I_32XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8I_48XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8I_48XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8I_4XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8I_4XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8I_8XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8I_8XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8I_96XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8I_96XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8I_FLEX_12XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8I_FLEX_12XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8I_FLEX_16XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8I_FLEX_16XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8I_FLEX_2XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8I_FLEX_2XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8I_FLEX_4XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8I_FLEX_4XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8I_FLEX_8XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8I_FLEX_8XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8I_FLEX_LARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8I_FLEX_LARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8I_FLEX_XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8I_FLEX_XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8I_LARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8I_LARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8I_METAL_48XL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8I_METAL_48XL",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8I_METAL_96XL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8I_METAL_96XL",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_M8I_XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"M8I_XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_MAC_M4_METAL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"MAC_M4_METAL",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_MAC_M4PRO_METAL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"MAC_M4PRO_METAL",
+		&returns,
+	)
+	return returns
+}
+
 func Ec2InstanceType_MAC1_METAL() *string {
 	_init_.Initialize()
 	var returns *string
@@ -6060,39 +7237,6 @@ func Ec2InstanceType_MAC2_METAL() *string {
 	_jsii_.StaticGet(
 		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
 		"MAC2_METAL",
-		&returns,
-	)
-	return returns
-}
-
-func Ec2InstanceType_P2_16XLARGE() *string {
-	_init_.Initialize()
-	var returns *string
-	_jsii_.StaticGet(
-		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
-		"P2_16XLARGE",
-		&returns,
-	)
-	return returns
-}
-
-func Ec2InstanceType_P2_8XLARGE() *string {
-	_init_.Initialize()
-	var returns *string
-	_jsii_.StaticGet(
-		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
-		"P2_8XLARGE",
-		&returns,
-	)
-	return returns
-}
-
-func Ec2InstanceType_P2_XLARGE() *string {
-	_init_.Initialize()
-	var returns *string
-	_jsii_.StaticGet(
-		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
-		"P2_XLARGE",
 		&returns,
 	)
 	return returns
@@ -6153,12 +7297,56 @@ func Ec2InstanceType_P4D_24XLARGE() *string {
 	return returns
 }
 
+func Ec2InstanceType_P4DE_24XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"P4DE_24XLARGE",
+		&returns,
+	)
+	return returns
+}
+
 func Ec2InstanceType_P5_48XLARGE() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
 		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
 		"P5_48XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_P5_4XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"P5_4XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_P5EN_48XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"P5EN_48XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_P6_B200_48XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"P6_B200_48XLARGE",
 		&returns,
 	)
 	return returns
@@ -8408,6 +9596,600 @@ func Ec2InstanceType_R8G_XLARGE() *string {
 	return returns
 }
 
+func Ec2InstanceType_R8GB_12XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GB_12XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GB_16XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GB_16XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GB_24XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GB_24XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GB_2XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GB_2XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GB_4XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GB_4XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GB_8XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GB_8XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GB_LARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GB_LARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GB_MEDIUM() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GB_MEDIUM",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GB_METAL_24XL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GB_METAL_24XL",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GB_XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GB_XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GD_12XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GD_12XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GD_16XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GD_16XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GD_24XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GD_24XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GD_2XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GD_2XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GD_48XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GD_48XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GD_4XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GD_4XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GD_8XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GD_8XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GD_LARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GD_LARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GD_MEDIUM() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GD_MEDIUM",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GD_METAL_24XL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GD_METAL_24XL",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GD_METAL_48XL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GD_METAL_48XL",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GD_XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GD_XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GN_12XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GN_12XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GN_16XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GN_16XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GN_24XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GN_24XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GN_2XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GN_2XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GN_48XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GN_48XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GN_4XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GN_4XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GN_8XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GN_8XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GN_LARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GN_LARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GN_MEDIUM() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GN_MEDIUM",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GN_METAL_24XL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GN_METAL_24XL",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GN_METAL_48XL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GN_METAL_48XL",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8GN_XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8GN_XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8I_12XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8I_12XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8I_16XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8I_16XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8I_24XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8I_24XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8I_2XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8I_2XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8I_32XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8I_32XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8I_48XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8I_48XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8I_4XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8I_4XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8I_8XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8I_8XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8I_96XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8I_96XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8I_FLEX_12XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8I_FLEX_12XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8I_FLEX_16XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8I_FLEX_16XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8I_FLEX_2XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8I_FLEX_2XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8I_FLEX_4XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8I_FLEX_4XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8I_FLEX_8XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8I_FLEX_8XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8I_FLEX_LARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8I_FLEX_LARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8I_FLEX_XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8I_FLEX_XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8I_LARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8I_LARGE",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8I_METAL_48XL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8I_METAL_48XL",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8I_METAL_96XL() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8I_METAL_96XL",
+		&returns,
+	)
+	return returns
+}
+
+func Ec2InstanceType_R8I_XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
+		"R8I_XLARGE",
+		&returns,
+	)
+	return returns
+}
+
 func Ec2InstanceType_T1_MICRO() *string {
 	_init_.Initialize()
 	var returns *string
@@ -8760,39 +10542,6 @@ func Ec2InstanceType_TRN1N_32XLARGE() *string {
 	return returns
 }
 
-func Ec2InstanceType_U_12TB1_112XLARGE() *string {
-	_init_.Initialize()
-	var returns *string
-	_jsii_.StaticGet(
-		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
-		"U_12TB1_112XLARGE",
-		&returns,
-	)
-	return returns
-}
-
-func Ec2InstanceType_U_18TB1_112XLARGE() *string {
-	_init_.Initialize()
-	var returns *string
-	_jsii_.StaticGet(
-		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
-		"U_18TB1_112XLARGE",
-		&returns,
-	)
-	return returns
-}
-
-func Ec2InstanceType_U_24TB1_112XLARGE() *string {
-	_init_.Initialize()
-	var returns *string
-	_jsii_.StaticGet(
-		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
-		"U_24TB1_112XLARGE",
-		&returns,
-	)
-	return returns
-}
-
 func Ec2InstanceType_U_3TB1_56XLARGE() *string {
 	_init_.Initialize()
 	var returns *string
@@ -8821,17 +10570,6 @@ func Ec2InstanceType_U_6TB1_56XLARGE() *string {
 	_jsii_.StaticGet(
 		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
 		"U_6TB1_56XLARGE",
-		&returns,
-	)
-	return returns
-}
-
-func Ec2InstanceType_U_9TB1_112XLARGE() *string {
-	_init_.Initialize()
-	var returns *string
-	_jsii_.StaticGet(
-		"@cdklabs/cdk-proserve-lib.types.Ec2InstanceType",
-		"U_9TB1_112XLARGE",
 		&returns,
 	)
 	return returns

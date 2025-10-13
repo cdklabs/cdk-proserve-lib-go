@@ -73,9 +73,6 @@ const (
 	// Installs the latest version of Amazon Kinesis Agent for Windows.
 	// Experimental.
 	Ec2ImagePipeline_Component_AMAZON_KINESIS_AGENT_WINDOWS Ec2ImagePipeline_Component = "AMAZON_KINESIS_AGENT_WINDOWS"
-	// Installs the Anaconda distribution and environments for Tensorflow, PyTorch, and MXNet.
-	// Experimental.
-	Ec2ImagePipeline_Component_ANACONDA_WINDOWS Ec2ImagePipeline_Component = "ANACONDA_WINDOWS"
 	// Installs the latest version of Apache Tomcat and the JRE, sets required environment variables, and schedules Tomcat to run on startup.
 	// Experimental.
 	Ec2ImagePipeline_Component_APACHE_TOMCAT_9_LINUX Ec2ImagePipeline_Component = "APACHE_TOMCAT_9_LINUX"
@@ -115,10 +112,10 @@ const (
 	// Uses validation steps outlined here: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/set-time.html.
 	// Experimental.
 	Ec2ImagePipeline_Component_CHRONY_TIME_CONFIGURATION_TEST Ec2ImagePipeline_Component = "CHRONY_TIME_CONFIGURATION_TEST"
-	// Install and configure the latest NICE DCV server on Linux.
+	// Install and configure the latest Amazon DCV server on Linux.
 	// Experimental.
 	Ec2ImagePipeline_Component_DCV_SERVER_LINUX Ec2ImagePipeline_Component = "DCV_SERVER_LINUX"
-	// Install and configure the latest NICE DCV server on Windows.
+	// Install and configure the latest Amazon DCV server on Windows.
 	// Experimental.
 	Ec2ImagePipeline_Component_DCV_SERVER_WINDOWS Ec2ImagePipeline_Component = "DCV_SERVER_WINDOWS"
 	// Installs a Distributor package on a Windows instance.
@@ -180,7 +177,7 @@ const (
 	// This includes latest Amazon ECS Container Agent and Docker CE version 20.10.21.
 	// Experimental.
 	Ec2ImagePipeline_Component_ECS_OPTIMIZED_AMI_WINDOWS Ec2ImagePipeline_Component = "ECS_OPTIMIZED_AMI_WINDOWS"
-	// Installs Amazon EKS-optimized Windows artifacts for Amazon EKS version 1.32. This includes kubelet version 1.32.0, containerd version 1.7.20, and CSI Proxy version 1.1.2.
+	// Installs Amazon EKS-optimized Windows artifacts for Amazon EKS version 1.33. This includes kubelet version 1.33.1, containerd version 1.7.27, and CSI Proxy version 1.2.1.
 	// Experimental.
 	Ec2ImagePipeline_Component_EKS_OPTIMIZED_AMI_WINDOWS Ec2ImagePipeline_Component = "EKS_OPTIMIZED_AMI_WINDOWS"
 	// The ENI attachment test performs the following actions: 1) It creates an elastic network interface (ENI) and attaches it to the instance.
@@ -221,14 +218,6 @@ const (
 	// Installs the MariaDB package using apt, yum, or zypper.
 	// Experimental.
 	Ec2ImagePipeline_Component_MARIADB_LINUX Ec2ImagePipeline_Component = "MARIADB_LINUX"
-	// Installs the MATE Desktop Environment, xrdp, TigerVNC server, and enables the xrdp service.
-	// Experimental.
-	Ec2ImagePipeline_Component_MATE_DE_LINUX Ec2ImagePipeline_Component = "MATE_DE_LINUX"
-	// Installs the latest version of the Mono framework.
-	//
-	// Follows the instructions found at https://www.mono-project.com/.
-	// Experimental.
-	Ec2ImagePipeline_Component_MONO_LINUX Ec2ImagePipeline_Component = "MONO_LINUX"
 	// Installs PHP 8.2.
 	// Experimental.
 	Ec2ImagePipeline_Component_PHP_8_2_LINUX Ec2ImagePipeline_Component = "PHP_8_2_LINUX"
@@ -250,7 +239,7 @@ const (
 	// Installs the Python 3 package using apt, yum, or zypper.
 	// Experimental.
 	Ec2ImagePipeline_Component_PYTHON_3_LINUX Ec2ImagePipeline_Component = "PYTHON_3_LINUX"
-	// Installs Python 3.8.2 for Windows.
+	// Installs the latest Python 3.13 release for Windows.
 	// Experimental.
 	Ec2ImagePipeline_Component_PYTHON_3_WINDOWS Ec2ImagePipeline_Component = "PYTHON_3_WINDOWS"
 	// Reboots the system.
@@ -265,7 +254,7 @@ const (
 	// Reboots the system.
 	// Experimental.
 	Ec2ImagePipeline_Component_REBOOT_WINDOWS Ec2ImagePipeline_Component = "REBOOT_WINDOWS"
-	// Installs and runs SCAP Compliance Checker (SCC) 5.10 for Red Hat Enterprise Linux (RHEL) 7/8, Ubuntu 18.04/20.04/22.04 with all current STIG Q1 2025 benchmarks. SCC supports the AMD64 architecture. Other architectures are not currently supported or contain issues within the EC2 environment. For more information, see https://docs.aws.amazon.com/imagebuilder/latest/userguide/toe-stig.html.
+	// Installs and runs SCAP Compliance Checker (SCC) 5.10 for Red Hat Enterprise Linux (RHEL) 7/8, Ubuntu 18.04/20.04 with all current STIG Q1 2025 benchmarks. SCC supports the AMD64 architecture. Other architectures are not currently supported or contain issues within the EC2 environment. For more information, see https://docs.aws.amazon.com/imagebuilder/latest/userguide/toe-stig.html.
 	// Experimental.
 	Ec2ImagePipeline_Component_SCAP_COMPLIANCE_CHECKER_LINUX Ec2ImagePipeline_Component = "SCAP_COMPLIANCE_CHECKER_LINUX"
 	// Installs and runs SCAP Compliance Checker (SCC) 5.10 for Windows with all current STIG Q3 2024 benchmarks. For more information, see https://docs.aws.amazon.com/imagebuilder/latest/userguide/image-builder-stig.html.
@@ -277,30 +266,14 @@ const (
 	// Executes a simple boot test.
 	// Experimental.
 	Ec2ImagePipeline_Component_SIMPLE_BOOT_TEST_WINDOWS Ec2ImagePipeline_Component = "SIMPLE_BOOT_TEST_WINDOWS"
-	// Applies the high, medium, and low severity STIG settings for Red Hat Enterprise Linux (RHEL) to Amazon Linux 2, Amazon Linux 2023, RHEL 7, CentOS Linux 7, CentOS Linux 8, CentOS Stream 9, RHEL 8, RHEL 9, Ubuntu 18.04, Ubuntu 20.04, and Ubuntu 22.04 instances. For more information, see https://docs.aws.amazon.com/imagebuilder/latest/userguide/toe-stig.html.
+	// Applies the high, medium, and/or low severity STIG settings for Amazon Linux 2, Amazon Linux 2023, RHEL 7, CentOS Linux 7, CentOS Linux 8, CentOS Stream 9, RHEL 8, RHEL 9, Ubuntu 18.04, Ubuntu 20.04, Ubuntu 22.04, Ubuntu 24.04, SLES 12, and SLES 15 operating systems. For more information, see https://docs.aws.amazon.com/imagebuilder/latest/userguide/ib-stig.html.
 	// Experimental.
-	Ec2ImagePipeline_Component_STIG_BUILD_LINUX_HIGH Ec2ImagePipeline_Component = "STIG_BUILD_LINUX_HIGH"
-	// Applies the low severity STIG settings for Red Hat Enterprise Linux (RHEL) to Amazon Linux 2, Amazon Linux 2023, RHEL 7, CentOS Linux 7, CentOS Linux 8, CentOS Stream 9, RHEL 8, RHEL 9, Ubuntu 18.04, Ubuntu 20.04, and Ubuntu 22.04 instances. For more information, see https://docs.aws.amazon.com/imagebuilder/latest/userguide/toe-stig.html.
-	// Experimental.
-	Ec2ImagePipeline_Component_STIG_BUILD_LINUX_LOW Ec2ImagePipeline_Component = "STIG_BUILD_LINUX_LOW"
-	// Applies the medium and low severity STIG settings for Red Hat Enterprise Linux (RHEL) to Amazon Linux 2, Amazon Linux 2023, RHEL 7, CentOS Linux 7, CentOS Linux 8, CentOS Stream 9, RHEL 8, RHEL 9, Ubuntu 18.04, Ubuntu 20.04, and Ubuntu 22.04 instances. For more information, see https://docs.aws.amazon.com/imagebuilder/latest/userguide/toe-stig.html.
-	// Experimental.
-	Ec2ImagePipeline_Component_STIG_BUILD_LINUX_MEDIUM Ec2ImagePipeline_Component = "STIG_BUILD_LINUX_MEDIUM"
-	// Applies the high, medium, and low severity STIG settings to Windows instances.
+	Ec2ImagePipeline_Component_STIG_BUILD_LINUX Ec2ImagePipeline_Component = "STIG_BUILD_LINUX"
+	// Applies the high, medium, and/or low severity STIG settings to Windows Server operating systems.
 	//
-	// For more information, see https://docs.aws.amazon.com/imagebuilder/latest/userguide/image-builder-stig.html.
+	// For more information, see https://docs.aws.amazon.com/imagebuilder/latest/userguide/ib-stig.html.
 	// Experimental.
-	Ec2ImagePipeline_Component_STIG_BUILD_WINDOWS_HIGH Ec2ImagePipeline_Component = "STIG_BUILD_WINDOWS_HIGH"
-	// Applies the low severity STIG settings to Windows instances.
-	//
-	// For more information, see https://docs.aws.amazon.com/imagebuilder/latest/userguide/image-builder-stig.html.
-	// Experimental.
-	Ec2ImagePipeline_Component_STIG_BUILD_WINDOWS_LOW Ec2ImagePipeline_Component = "STIG_BUILD_WINDOWS_LOW"
-	// Applies the medium and low severity STIG settings to Windows instances.
-	//
-	// For more information, see https://docs.aws.amazon.com/imagebuilder/latest/userguide/image-builder-stig.html.
-	// Experimental.
-	Ec2ImagePipeline_Component_STIG_BUILD_WINDOWS_MEDIUM Ec2ImagePipeline_Component = "STIG_BUILD_WINDOWS_MEDIUM"
+	Ec2ImagePipeline_Component_STIG_BUILD_WINDOWS Ec2ImagePipeline_Component = "STIG_BUILD_WINDOWS"
 	// Installs the Linux kernel 5.* for Amazon Linux 2 from Amazon Linux Extras.
 	// Experimental.
 	Ec2ImagePipeline_Component_UPDATE_LINUX_KERNEL_5 Ec2ImagePipeline_Component = "UPDATE_LINUX_KERNEL_5"
@@ -335,6 +308,11 @@ const (
 	// The installation is performed by enabling the Windows features built into the Windows operating system.
 	// Experimental.
 	Ec2ImagePipeline_Component_WINDOWS_SERVER_IIS Ec2ImagePipeline_Component = "WINDOWS_SERVER_IIS"
+	// Checking the compatibility of the WorkSpaces image before importing the image.
+	//
+	// See the documentation at https://docs.aws.amazon.com/workspaces/latest/adminguide/byol-windows-images.html
+	// Experimental.
+	Ec2ImagePipeline_Component_WORKSPACES_IMAGE_COMPATIBILITY_CHECKER_WINDOWS Ec2ImagePipeline_Component = "WORKSPACES_IMAGE_COMPATIBILITY_CHECKER_WINDOWS"
 	// Tests whether yum repository works successfully.
 	// Experimental.
 	Ec2ImagePipeline_Component_YUM_REPOSITORY_TEST_LINUX Ec2ImagePipeline_Component = "YUM_REPOSITORY_TEST_LINUX"

@@ -785,6 +785,17 @@ func SageMakerNotebookInstanceType_ML_C7G_LARGE() *string {
 	return returns
 }
 
+func SageMakerNotebookInstanceType_ML_C7G_MEDIUM() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.SageMakerNotebookInstanceType",
+		"ML_C7G_MEDIUM",
+		&returns,
+	)
+	return returns
+}
+
 func SageMakerNotebookInstanceType_ML_C7G_XLARGE() *string {
 	_init_.Initialize()
 	var returns *string
@@ -2127,6 +2138,39 @@ func SageMakerNotebookInstanceType_ML_P5_48XLARGE() *string {
 	return returns
 }
 
+func SageMakerNotebookInstanceType_ML_P5_4XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.SageMakerNotebookInstanceType",
+		"ML_P5_4XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func SageMakerNotebookInstanceType_ML_P5E_48XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.SageMakerNotebookInstanceType",
+		"ML_P5E_48XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func SageMakerNotebookInstanceType_ML_P5EN_48XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.SageMakerNotebookInstanceType",
+		"ML_P5EN_48XLARGE",
+		&returns,
+	)
+	return returns
+}
+
 func SageMakerNotebookInstanceType_ML_R5_12XLARGE() *string {
 	_init_.Initialize()
 	var returns *string
@@ -2749,6 +2793,116 @@ func SageMakerNotebookInstanceType_ML_R7I_XLARGE() *string {
 	_jsii_.StaticGet(
 		"@cdklabs/cdk-proserve-lib.types.SageMakerNotebookInstanceType",
 		"ML_R7I_XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func SageMakerNotebookInstanceType_ML_R8G_12XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.SageMakerNotebookInstanceType",
+		"ML_R8G_12XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func SageMakerNotebookInstanceType_ML_R8G_16XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.SageMakerNotebookInstanceType",
+		"ML_R8G_16XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func SageMakerNotebookInstanceType_ML_R8G_24XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.SageMakerNotebookInstanceType",
+		"ML_R8G_24XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func SageMakerNotebookInstanceType_ML_R8G_2XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.SageMakerNotebookInstanceType",
+		"ML_R8G_2XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func SageMakerNotebookInstanceType_ML_R8G_48XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.SageMakerNotebookInstanceType",
+		"ML_R8G_48XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func SageMakerNotebookInstanceType_ML_R8G_4XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.SageMakerNotebookInstanceType",
+		"ML_R8G_4XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func SageMakerNotebookInstanceType_ML_R8G_8XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.SageMakerNotebookInstanceType",
+		"ML_R8G_8XLARGE",
+		&returns,
+	)
+	return returns
+}
+
+func SageMakerNotebookInstanceType_ML_R8G_LARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.SageMakerNotebookInstanceType",
+		"ML_R8G_LARGE",
+		&returns,
+	)
+	return returns
+}
+
+func SageMakerNotebookInstanceType_ML_R8G_MEDIUM() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.SageMakerNotebookInstanceType",
+		"ML_R8G_MEDIUM",
+		&returns,
+	)
+	return returns
+}
+
+func SageMakerNotebookInstanceType_ML_R8G_XLARGE() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.SageMakerNotebookInstanceType",
+		"ML_R8G_XLARGE",
 		&returns,
 	)
 	return returns

@@ -48,6 +48,17 @@ func AwsManagedPolicy_ADMINISTRATOR_ACCESS_AWS_ELASTIC_BEANSTALK() *string {
 	return returns
 }
 
+func AwsManagedPolicy_AI_OPS_ASSISTANT_INCIDENT_REPORT_POLICY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AI_OPS_ASSISTANT_INCIDENT_REPORT_POLICY",
+		&returns,
+	)
+	return returns
+}
+
 func AwsManagedPolicy_AI_OPS_ASSISTANT_POLICY() *string {
 	_init_.Initialize()
 	var returns *string
@@ -301,12 +312,45 @@ func AwsManagedPolicy_AMAZON_AURORA_DSQL_READ_ONLY_ACCESS() *string {
 	return returns
 }
 
+func AwsManagedPolicy_AMAZON_BEDROCK_AGENT_CORE_MEMORY_BEDROCK_MODEL_INFERENCE_EXECUTION_ROLE_POLICY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AMAZON_BEDROCK_AGENT_CORE_MEMORY_BEDROCK_MODEL_INFERENCE_EXECUTION_ROLE_POLICY",
+		&returns,
+	)
+	return returns
+}
+
 func AwsManagedPolicy_AMAZON_BEDROCK_FULL_ACCESS() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
 		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
 		"AMAZON_BEDROCK_FULL_ACCESS",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_AMAZON_BEDROCK_LIMITED_ACCESS() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AMAZON_BEDROCK_LIMITED_ACCESS",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_AMAZON_BEDROCK_MARKETPLACE_ACCESS() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AMAZON_BEDROCK_MARKETPLACE_ACCESS",
 		&returns,
 	)
 	return returns
@@ -895,6 +939,17 @@ func AwsManagedPolicy_AMAZON_DYNAMO_DB_FULL_ACCESS() *string {
 	return returns
 }
 
+func AwsManagedPolicy_AMAZON_DYNAMO_DB_FULL_ACCESS_V2() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AMAZON_DYNAMO_DB_FULL_ACCESS_V2",
+		&returns,
+	)
+	return returns
+}
+
 func AwsManagedPolicy_AMAZON_DYNAMO_DB_FULL_ACCESSWITH_DATA_PIPELINE() *string {
 	_init_.Initialize()
 	var returns *string
@@ -972,6 +1027,17 @@ func AwsManagedPolicy_AMAZON_EC2_FULL_ACCESS() *string {
 	return returns
 }
 
+func AwsManagedPolicy_AMAZON_EC2_IMAGE_REFERENCES_ACCESS_POLICY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AMAZON_EC2_IMAGE_REFERENCES_ACCESS_POLICY",
+		&returns,
+	)
+	return returns
+}
+
 func AwsManagedPolicy_AMAZON_EC2_READ_ONLY_ACCESS() *string {
 	_init_.Initialize()
 	var returns *string
@@ -1005,12 +1071,45 @@ func AwsManagedPolicy_AMAZON_ECS_FULL_ACCESS() *string {
 	return returns
 }
 
+func AwsManagedPolicy_AMAZON_ECS_INFRASTRUCTURE_ROLE_POLICY_FOR_LOAD_BALANCERS() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AMAZON_ECS_INFRASTRUCTURE_ROLE_POLICY_FOR_LOAD_BALANCERS",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_AMAZON_ECS_INFRASTRUCTURE_ROLE_POLICY_FOR_MANAGED_INSTANCES() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AMAZON_ECS_INFRASTRUCTURE_ROLE_POLICY_FOR_MANAGED_INSTANCES",
+		&returns,
+	)
+	return returns
+}
+
 func AwsManagedPolicy_AMAZON_ECS_INFRASTRUCTURE_ROLE_POLICY_FOR_VPC_LATTICE() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
 		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
 		"AMAZON_ECS_INFRASTRUCTURE_ROLE_POLICY_FOR_VPC_LATTICE",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_AMAZON_ECS_INSTANCE_ROLE_POLICY_FOR_MANAGED_INSTANCES() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AMAZON_ECS_INSTANCE_ROLE_POLICY_FOR_MANAGED_INSTANCES",
 		&returns,
 	)
 	return returns
@@ -1055,6 +1154,17 @@ func AwsManagedPolicy_AMAZON_EKS_COMPUTE_POLICY() *string {
 	_jsii_.StaticGet(
 		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
 		"AMAZON_EKS_COMPUTE_POLICY",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_AMAZON_EKS_DASHBOARD_CONSOLE_READ_ONLY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AMAZON_EKS_DASHBOARD_CONSOLE_READ_ONLY",
 		&returns,
 	)
 	return returns
@@ -1599,6 +1709,17 @@ func AwsManagedPolicy_AMAZON_GUARD_DUTY_FULL_ACCESS() *string {
 	return returns
 }
 
+func AwsManagedPolicy_AMAZON_GUARD_DUTY_FULL_ACCESS_V2() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AMAZON_GUARD_DUTY_FULL_ACCESS_V2",
+		&returns,
+	)
+	return returns
+}
+
 func AwsManagedPolicy_AMAZON_GUARD_DUTY_READ_ONLY_ACCESS() *string {
 	_init_.Initialize()
 	var returns *string
@@ -1726,6 +1847,17 @@ func AwsManagedPolicy_AMAZON_INSPECTOR2_FULL_ACCESS() *string {
 	_jsii_.StaticGet(
 		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
 		"AMAZON_INSPECTOR2_FULL_ACCESS",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_AMAZON_INSPECTOR2_FULL_ACCESS_V2() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AMAZON_INSPECTOR2_FULL_ACCESS_V2",
 		&returns,
 	)
 	return returns
@@ -3194,6 +3326,28 @@ func AwsManagedPolicy_AMAZON_SAGE_MAKER_GROUND_TRUTH_EXECUTION() *string {
 	return returns
 }
 
+func AwsManagedPolicy_AMAZON_SAGE_MAKER_HYPER_POD_OBSERVABILITY_ADMIN_ACCESS() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AMAZON_SAGE_MAKER_HYPER_POD_OBSERVABILITY_ADMIN_ACCESS",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_AMAZON_SAGE_MAKER_HYPER_POD_TRAINING_OPERATOR_ACCESS() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AMAZON_SAGE_MAKER_HYPER_POD_TRAINING_OPERATOR_ACCESS",
+		&returns,
+	)
+	return returns
+}
+
 func AwsManagedPolicy_AMAZON_SAGE_MAKER_MECHANICAL_TURK_ACCESS() *string {
 	_init_.Initialize()
 	var returns *string
@@ -3486,6 +3640,17 @@ func AwsManagedPolicy_AMAZON_TIMESTREAM_INFLUX_DB_FULL_ACCESS() *string {
 	_jsii_.StaticGet(
 		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
 		"AMAZON_TIMESTREAM_INFLUX_DB_FULL_ACCESS",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_AMAZON_TIMESTREAM_INFLUX_DB_FULL_ACCESS_WITHOUT_MARKETPLACE_ACCESS() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AMAZON_TIMESTREAM_INFLUX_DB_FULL_ACCESS_WITHOUT_MARKETPLACE_ACCESS",
 		&returns,
 	)
 	return returns
@@ -4256,6 +4421,17 @@ func AwsManagedPolicy_AWS_BACKUP_RESTORE_ACCESS_FOR_SAPHANA() *string {
 	_jsii_.StaticGet(
 		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
 		"AWS_BACKUP_RESTORE_ACCESS_FOR_SAPHANA",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_AWS_BACKUP_SEARCH_OPERATOR_ACCESS() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AWS_BACKUP_SEARCH_OPERATOR_ACCESS",
 		&returns,
 	)
 	return returns
@@ -5438,6 +5614,28 @@ func AwsManagedPolicy_AWS_ELASTIC_DISASTER_RECOVERY_READ_ONLY_ACCESS() *string {
 	return returns
 }
 
+func AwsManagedPolicy_AWS_ELEMENTAL_MEDIA_CONNECT_FULL_ACCESS() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AWS_ELEMENTAL_MEDIA_CONNECT_FULL_ACCESS",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_AWS_ELEMENTAL_MEDIA_CONNECT_READ_ONLY_ACCESS() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AWS_ELEMENTAL_MEDIA_CONNECT_READ_ONLY_ACCESS",
+		&returns,
+	)
+	return returns
+}
+
 func AwsManagedPolicy_AWS_ELEMENTAL_MEDIA_CONVERT_FULL_ACCESS() *string {
 	_init_.Initialize()
 	var returns *string
@@ -6032,6 +6230,17 @@ func AwsManagedPolicy_AWS_IO_T_FULL_ACCESS() *string {
 	return returns
 }
 
+func AwsManagedPolicy_AWS_IO_T_MANAGED_INTEGRATIONS_FULL_ACCESS() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AWS_IO_T_MANAGED_INTEGRATIONS_FULL_ACCESS",
+		&returns,
+	)
+	return returns
+}
+
 func AwsManagedPolicy_AWS_IO_T_SITE_WISE_CONSOLE_FULL_ACCESS() *string {
 	_init_.Initialize()
 	var returns *string
@@ -6131,28 +6340,6 @@ func AwsManagedPolicy_AWS_IO_T_WIRELESS_READ_ONLY_ACCESS() *string {
 	return returns
 }
 
-func AwsManagedPolicy_AWS_IO_T1_CLICK_FULL_ACCESS() *string {
-	_init_.Initialize()
-	var returns *string
-	_jsii_.StaticGet(
-		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
-		"AWS_IO_T1_CLICK_FULL_ACCESS",
-		&returns,
-	)
-	return returns
-}
-
-func AwsManagedPolicy_AWS_IO_T1_CLICK_READ_ONLY_ACCESS() *string {
-	_init_.Initialize()
-	var returns *string
-	_jsii_.StaticGet(
-		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
-		"AWS_IO_T1_CLICK_READ_ONLY_ACCESS",
-		&returns,
-	)
-	return returns
-}
-
 func AwsManagedPolicy_AWS_IQ_FULL_ACCESS() *string {
 	_init_.Initialize()
 	var returns *string
@@ -6241,6 +6428,17 @@ func AwsManagedPolicy_AWS_LAMBDA_READ_ONLY_ACCESS() *string {
 	return returns
 }
 
+func AwsManagedPolicy_AWS_MANAGEMENT_CONSOLE_BASIC_USER_ACCESS() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AWS_MANAGEMENT_CONSOLE_BASIC_USER_ACCESS",
+		&returns,
+	)
+	return returns
+}
+
 func AwsManagedPolicy_AWS_MARKETPLACE_AMI_INGESTION() *string {
 	_init_.Initialize()
 	var returns *string
@@ -6269,17 +6467,6 @@ func AwsManagedPolicy_AWS_MARKETPLACE_GET_ENTITLEMENTS() *string {
 	_jsii_.StaticGet(
 		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
 		"AWS_MARKETPLACE_GET_ENTITLEMENTS",
-		&returns,
-	)
-	return returns
-}
-
-func AwsManagedPolicy_AWS_MARKETPLACE_IMAGE_BUILD_FULL_ACCESS() *string {
-	_init_.Initialize()
-	var returns *string
-	_jsii_.StaticGet(
-		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
-		"AWS_MARKETPLACE_IMAGE_BUILD_FULL_ACCESS",
 		&returns,
 	)
 	return returns
@@ -6472,6 +6659,28 @@ func AwsManagedPolicy_AWS_MIGRATION_HUB_STRATEGY_CONSOLE_FULL_ACCESS() *string {
 	return returns
 }
 
+func AwsManagedPolicy_AWS_NETWORK_FIREWALL_FULL_ACCESS() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AWS_NETWORK_FIREWALL_FULL_ACCESS",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_AWS_NETWORK_FIREWALL_READ_ONLY_ACCESS() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AWS_NETWORK_FIREWALL_READ_ONLY_ACCESS",
+		&returns,
+	)
+	return returns
+}
+
 func AwsManagedPolicy_AWS_NETWORK_MANAGER_FULL_ACCESS() *string {
 	_init_.Initialize()
 	var returns *string
@@ -6489,72 +6698,6 @@ func AwsManagedPolicy_AWS_NETWORK_MANAGER_READ_ONLY_ACCESS() *string {
 	_jsii_.StaticGet(
 		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
 		"AWS_NETWORK_MANAGER_READ_ONLY_ACCESS",
-		&returns,
-	)
-	return returns
-}
-
-func AwsManagedPolicy_AWS_OPS_WORKS_CLOUD_WATCH_LOGS() *string {
-	_init_.Initialize()
-	var returns *string
-	_jsii_.StaticGet(
-		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
-		"AWS_OPS_WORKS_CLOUD_WATCH_LOGS",
-		&returns,
-	)
-	return returns
-}
-
-func AwsManagedPolicy_AWS_OPS_WORKS_CM_INSTANCE_PROFILE_ROLE() *string {
-	_init_.Initialize()
-	var returns *string
-	_jsii_.StaticGet(
-		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
-		"AWS_OPS_WORKS_CM_INSTANCE_PROFILE_ROLE",
-		&returns,
-	)
-	return returns
-}
-
-func AwsManagedPolicy_AWS_OPS_WORKS_FULL_ACCESS() *string {
-	_init_.Initialize()
-	var returns *string
-	_jsii_.StaticGet(
-		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
-		"AWS_OPS_WORKS_FULL_ACCESS",
-		&returns,
-	)
-	return returns
-}
-
-func AwsManagedPolicy_AWS_OPS_WORKS_INSTANCE_REGISTRATION() *string {
-	_init_.Initialize()
-	var returns *string
-	_jsii_.StaticGet(
-		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
-		"AWS_OPS_WORKS_INSTANCE_REGISTRATION",
-		&returns,
-	)
-	return returns
-}
-
-func AwsManagedPolicy_AWS_OPS_WORKS_REGISTER_CLI_EC2() *string {
-	_init_.Initialize()
-	var returns *string
-	_jsii_.StaticGet(
-		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
-		"AWS_OPS_WORKS_REGISTER_CLI_EC2",
-		&returns,
-	)
-	return returns
-}
-
-func AwsManagedPolicy_AWS_OPS_WORKS_REGISTER_CLI_ON_PREMISES() *string {
-	_init_.Initialize()
-	var returns *string
-	_jsii_.StaticGet(
-		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
-		"AWS_OPS_WORKS_REGISTER_CLI_ON_PREMISES",
 		&returns,
 	)
 	return returns
@@ -6659,6 +6802,17 @@ func AwsManagedPolicy_AWS_PARTNER_LED_SUPPORT_READ_ONLY_ACCESS() *string {
 	return returns
 }
 
+func AwsManagedPolicy_AWS_PCS_COMPUTE_NODE_POLICY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AWS_PCS_COMPUTE_NODE_POLICY",
+		&returns,
+	)
+	return returns
+}
+
 func AwsManagedPolicy_AWS_PRICE_LIST_SERVICE_FULL_ACCESS() *string {
 	_init_.Initialize()
 	var returns *string
@@ -6676,6 +6830,17 @@ func AwsManagedPolicy_AWS_PRIVATE_CA_AUDITOR() *string {
 	_jsii_.StaticGet(
 		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
 		"AWS_PRIVATE_CA_AUDITOR",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_AWS_PRIVATE_CA_CONNECTOR_FOR_KUBERNETES_POLICY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AWS_PRIVATE_CA_CONNECTOR_FOR_KUBERNETES_POLICY",
 		&returns,
 	)
 	return returns
@@ -6868,6 +7033,28 @@ func AwsManagedPolicy_AWS_QUICK_SETUP_ENABLE_DHMC_EXECUTION_POLICY() *string {
 	return returns
 }
 
+func AwsManagedPolicy_AWS_QUICK_SETUP_JITNA_DEPLOYMENT_ROLE_POLICY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AWS_QUICK_SETUP_JITNA_DEPLOYMENT_ROLE_POLICY",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_AWS_QUICK_SETUP_MANAGE_JITNA_RESOURCES_EXECUTION_POLICY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AWS_QUICK_SETUP_MANAGE_JITNA_RESOURCES_EXECUTION_POLICY",
+		&returns,
+	)
+	return returns
+}
+
 func AwsManagedPolicy_AWS_QUICK_SETUP_MANAGED_INSTANCE_PROFILE_EXECUTION_POLICY() *string {
 	_init_.Initialize()
 	var returns *string
@@ -6978,6 +7165,28 @@ func AwsManagedPolicy_AWS_QUICK_SETUP_SSM_MANAGE_RESOURCES_EXECUTION_POLICY() *s
 	return returns
 }
 
+func AwsManagedPolicy_AWS_QUICK_SETUP_START_SSM_ASSOCIATIONS_EXECUTION_POLICY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AWS_QUICK_SETUP_START_SSM_ASSOCIATIONS_EXECUTION_POLICY",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_AWS_QUICK_SETUP_START_STOP_INSTANCES_EXECUTION_POLICY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AWS_QUICK_SETUP_START_STOP_INSTANCES_EXECUTION_POLICY",
+		&returns,
+	)
+	return returns
+}
+
 func AwsManagedPolicy_AWS_QUICK_SIGHT_ASSET_BUNDLE_EXPORT_POLICY() *string {
 	_init_.Initialize()
 	var returns *string
@@ -7006,6 +7215,17 @@ func AwsManagedPolicy_AWS_QUICK_SIGHT_IO_T_ANALYTICS_ACCESS() *string {
 	_jsii_.StaticGet(
 		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
 		"AWS_QUICK_SIGHT_IO_T_ANALYTICS_ACCESS",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_AWS_QUICK_SIGHT_SECRETS_MANAGER_WRITE_POLICY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AWS_QUICK_SIGHT_SECRETS_MANAGER_WRITE_POLICY",
 		&returns,
 	)
 	return returns
@@ -7160,6 +7380,28 @@ func AwsManagedPolicy_AWS_ROBO_MAKER_SERVICE_ROLE_POLICY() *string {
 	_jsii_.StaticGet(
 		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
 		"AWS_ROBO_MAKER_SERVICE_ROLE_POLICY",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_AWS_ROLES_ANYWHERE_FULL_ACCESS() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AWS_ROLES_ANYWHERE_FULL_ACCESS",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_AWS_ROLES_ANYWHERE_READ_ONLY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AWS_ROLES_ANYWHERE_READ_ONLY",
 		&returns,
 	)
 	return returns
@@ -7605,6 +7847,39 @@ func AwsManagedPolicy_AWS_SYSTEMS_MANAGER_FOR_SAP_READ_ONLY_ACCESS() *string {
 	return returns
 }
 
+func AwsManagedPolicy_AWS_SYSTEMS_MANAGER_JUST_IN_TIME_ACCESS_TOKEN_POLICY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AWS_SYSTEMS_MANAGER_JUST_IN_TIME_ACCESS_TOKEN_POLICY",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_AWS_SYSTEMS_MANAGER_JUST_IN_TIME_ACCESS_TOKEN_SESSION_POLICY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AWS_SYSTEMS_MANAGER_JUST_IN_TIME_ACCESS_TOKEN_SESSION_POLICY",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_AWS_SYSTEMS_MANAGER_JUST_IN_TIME_NODE_ACCESS_ROLE_PROPAGATION_POLICY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"AWS_SYSTEMS_MANAGER_JUST_IN_TIME_NODE_ACCESS_ROLE_PROPAGATION_POLICY",
+		&returns,
+	)
+	return returns
+}
+
 func AwsManagedPolicy_AWS_THINKBOX_ASSET_SERVER_POLICY() *string {
 	_init_.Initialize()
 	var returns *string
@@ -7897,6 +8172,17 @@ func AwsManagedPolicy_AWS_XRAY_WRITE_ONLY_ACCESS() *string {
 	_jsii_.StaticGet(
 		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
 		"AWS_XRAY_WRITE_ONLY_ACCESS",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_BEDROCK_AGENT_CORE_FULL_ACCESS() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"BEDROCK_AGENT_CORE_FULL_ACCESS",
 		&returns,
 	)
 	return returns
@@ -8474,6 +8760,17 @@ func AwsManagedPolicy_GAME_LIFT_GAME_SERVER_GROUP_POLICY() *string {
 	return returns
 }
 
+func AwsManagedPolicy_GIT_LAB_DUO_WITH_AMAZON_Q_PERMISSIONS_POLICY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"GIT_LAB_DUO_WITH_AMAZON_Q_PERMISSIONS_POLICY",
+		&returns,
+	)
+	return returns
+}
+
 func AwsManagedPolicy_GLOBAL_ACCELERATOR_FULL_ACCESS() *string {
 	_init_.Initialize()
 	var returns *string
@@ -8491,28 +8788,6 @@ func AwsManagedPolicy_GLOBAL_ACCELERATOR_READ_ONLY_ACCESS() *string {
 	_jsii_.StaticGet(
 		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
 		"GLOBAL_ACCELERATOR_READ_ONLY_ACCESS",
-		&returns,
-	)
-	return returns
-}
-
-func AwsManagedPolicy_GROUND_TRUTH_SYNTHETIC_CONSOLE_FULL_ACCESS() *string {
-	_init_.Initialize()
-	var returns *string
-	_jsii_.StaticGet(
-		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
-		"GROUND_TRUTH_SYNTHETIC_CONSOLE_FULL_ACCESS",
-		&returns,
-	)
-	return returns
-}
-
-func AwsManagedPolicy_GROUND_TRUTH_SYNTHETIC_CONSOLE_READ_ONLY_ACCESS() *string {
-	_init_.Initialize()
-	var returns *string
-	_jsii_.StaticGet(
-		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
-		"GROUND_TRUTH_SYNTHETIC_CONSOLE_READ_ONLY_ACCESS",
 		&returns,
 	)
 	return returns
@@ -8634,6 +8909,28 @@ func AwsManagedPolicy_MEDIA_CONNECT_GATEWAY_INSTANCE_ROLE_POLICY() *string {
 	_jsii_.StaticGet(
 		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
 		"MEDIA_CONNECT_GATEWAY_INSTANCE_ROLE_POLICY",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_MULTI_PARTY_APPROVAL_FULL_ACCESS() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"MULTI_PARTY_APPROVAL_FULL_ACCESS",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_MULTI_PARTY_APPROVAL_READ_ONLY_ACCESS() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"MULTI_PARTY_APPROVAL_READ_ONLY_ACCESS",
 		&returns,
 	)
 	return returns
@@ -8793,6 +9090,72 @@ func AwsManagedPolicy_ROSA_MANAGE_SUBSCRIPTION() *string {
 	return returns
 }
 
+func AwsManagedPolicy_ROSA_SHARED_VPC_ENDPOINT_POLICY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"ROSA_SHARED_VPC_ENDPOINT_POLICY",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_ROSA_SHARED_VPC_ROUTE53_POLICY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"ROSA_SHARED_VPC_ROUTE53_POLICY",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_SAGE_MAKER_STUDIO_ADMIN_IAM_CONSOLE_POLICY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"SAGE_MAKER_STUDIO_ADMIN_IAM_CONSOLE_POLICY",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_SAGE_MAKER_STUDIO_ADMIN_IAM_DEFAULT_EXECUTION_POLICY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"SAGE_MAKER_STUDIO_ADMIN_IAM_DEFAULT_EXECUTION_POLICY",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_SAGE_MAKER_STUDIO_ADMIN_IAM_PERMISSIVE_EXECUTION_POLICY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"SAGE_MAKER_STUDIO_ADMIN_IAM_PERMISSIVE_EXECUTION_POLICY",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_SAGE_MAKER_STUDIO_ADMIN_PROJECT_USER_ROLE_POLICY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"SAGE_MAKER_STUDIO_ADMIN_PROJECT_USER_ROLE_POLICY",
+		&returns,
+	)
+	return returns
+}
+
 func AwsManagedPolicy_SAGE_MAKER_STUDIO_FULL_ACCESS() *string {
 	_init_.Initialize()
 	var returns *string
@@ -8832,6 +9195,39 @@ func AwsManagedPolicy_SAGE_MAKER_STUDIO_PROJECT_USER_ROLE_POLICY() *string {
 	_jsii_.StaticGet(
 		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
 		"SAGE_MAKER_STUDIO_PROJECT_USER_ROLE_POLICY",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_SAGE_MAKER_STUDIO_USER_IAM_CONSOLE_POLICY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"SAGE_MAKER_STUDIO_USER_IAM_CONSOLE_POLICY",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_SAGE_MAKER_STUDIO_USER_IAM_DEFAULT_EXECUTION_POLICY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"SAGE_MAKER_STUDIO_USER_IAM_DEFAULT_EXECUTION_POLICY",
+		&returns,
+	)
+	return returns
+}
+
+func AwsManagedPolicy_SAGE_MAKER_STUDIO_USER_IAM_PERMISSIVE_EXECUTION_POLICY() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdklabs/cdk-proserve-lib.types.AwsManagedPolicy",
+		"SAGE_MAKER_STUDIO_USER_IAM_PERMISSIVE_EXECUTION_POLICY",
 		&returns,
 	)
 	return returns

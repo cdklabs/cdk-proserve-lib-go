@@ -72,5 +72,8 @@ const (
 	// Fraudulent accounts can be used for activities such as obtaining sign-up bonuses and impersonating legitimate users.
 	// Experimental.
 	WebApplicationFirewall_AwsManagedRuleGroup_ACFP_RULE_SET WebApplicationFirewall_AwsManagedRuleGroup = "ACFP_RULE_SET"
+	// Provides protection against DDoS attacks targeting the application layer, also known as Layer 7 attacks.
+	// Experimental.
+	WebApplicationFirewall_AwsManagedRuleGroup_ANTI_DDOS_RULE_SET WebApplicationFirewall_AwsManagedRuleGroup = "ANTI_DDOS_RULE_SET"
 )
 
